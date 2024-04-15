@@ -1,0 +1,61 @@
+body {
+    background-image: url(./background.png);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-image: url(./headerbg.png);
+    text-align: center;
+    padding: 20px 0;
+    text-shadow: 1px 1px 2px #fff, 0 0 5px #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.my-hobbies,
+.my-works,
+.testimonials {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    width: 190px;
+    padding: 30px;
+    border: 3px solid #fca3da;
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    text-shadow: 0 0 25px #ffffff, 0 0 5px #f6a0dd;
+}
+.gallery {  
+    text-align: center;
+    margin-top: 20px;
+        
+}
+.gallery h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: #ffd1e0; 
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 2px #fff, 0 0 5px #fff;
+}
+
+.images img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.images img:hover {
+    transform: scale(1.1); 
+}
